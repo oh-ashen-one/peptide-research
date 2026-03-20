@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://oh-ashen-one.github.io/peptide-research/sitemap.xml
