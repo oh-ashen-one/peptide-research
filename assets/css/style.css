@@ -8,16 +8,16 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
-  --bg-primary: #0A1628;
-  --bg-card: #0F1E38;
-  --bg-card-hover: #132444;
-  --text-primary: #F0F4FF;
-  --text-secondary: #8A9BBF;
-  --text-muted: #5A6D8F;
-  --accent: #1E6FFF;
-  --accent-hover: #3D82FF;
-  --border: rgba(30, 111, 255, 0.15);
-  --border-light: rgba(240, 244, 255, 0.08);
+  --bg-primary: #080808;
+  --bg-card: #141414;
+  --bg-card-hover: #1c1c1c;
+  --text-primary: #F0EDE8;
+  --text-secondary: #999999;
+  --text-muted: #555555;
+  --accent: #FFFFFF;
+  --accent-hover: #E0E0E0;
+  --border: rgba(255, 255, 255, 0.08);
+  --border-light: rgba(255, 255, 255, 0.05);
   --font-mono: 'IBM Plex Mono', monospace;
   --font-sans: 'IBM Plex Sans', sans-serif;
   --max-width: 1200px;
@@ -269,8 +269,8 @@ h3 { font-size: clamp(1.15rem, 2.5vw, 1.5rem); }
   letter-spacing: 0.08em;
   text-transform: uppercase;
   color: var(--accent);
-  background: rgba(30, 111, 255, 0.08);
-  border: 1px solid rgba(30, 111, 255, 0.2);
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.2);
   padding: 0.35rem 0.85rem;
   border-radius: 3px;
   margin-bottom: 1.5rem;
@@ -355,8 +355,8 @@ h3 { font-size: clamp(1.15rem, 2.5vw, 1.5rem); }
   display: flex;
   align-items: center;
   justify-content: center;
-  background: rgba(30, 111, 255, 0.08);
-  border: 1px solid rgba(30, 111, 255, 0.15);
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.15);
   border-radius: 4px;
 }
 
@@ -418,7 +418,7 @@ h3 { font-size: clamp(1.15rem, 2.5vw, 1.5rem); }
 }
 
 .product-card:hover {
-  border-color: rgba(30, 111, 255, 0.35);
+  border-color: rgba(255, 255, 255, 0.35);
   transform: translateY(-2px);
 }
 
@@ -429,7 +429,7 @@ h3 { font-size: clamp(1.15rem, 2.5vw, 1.5rem); }
   letter-spacing: 0.08em;
   text-transform: uppercase;
   color: var(--accent);
-  background: rgba(30, 111, 255, 0.08);
+  background: rgba(255, 255, 255, 0.08);
   padding: 0.25rem 0.65rem;
   border-radius: 3px;
   margin-bottom: 1rem;
@@ -632,7 +632,7 @@ h3 { font-size: clamp(1.15rem, 2.5vw, 1.5rem); }
   display: flex;
   align-items: center;
   justify-content: center;
-  background: rgba(30, 111, 255, 0.08);
+  background: rgba(255, 255, 255, 0.08);
   border-radius: 4px;
 }
 
